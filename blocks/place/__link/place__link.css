@@ -1,13 +1,15 @@
-.places__link {
-    text-decoration: none;
+.place__link {
+    text-decoration: underline;
     color: #fff;
     font-size: 18px;
     line-height: 22px;
     opacity: 1;
     transition: opacity 0.3s linear;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 400;
   }
 
-.places__link:hover {
+.place__link:hover {
   opacity: 0.8;
  }
   

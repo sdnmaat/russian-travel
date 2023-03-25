@@ -1,0 +1,8 @@
+.header__lang-box {
+  display: flex;
+  gap: 18px;
+  justify-self: end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

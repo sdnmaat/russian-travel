@@ -1,18 +1,19 @@
-.places__website {
+.place__website {
   width: 456px;
   align-self: end;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
-  .places__website {
+  .place__website {
     width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__website {
+  .place__website {
     width: 288px;
     margin: auto;
   }

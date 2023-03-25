@@ -4,6 +4,7 @@
   grid-template-columns: 3fr 1fr;
   margin: auto;
   margin-top: 92px;
+  margin-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,6 +16,7 @@
 @media screen and (max-width: 768px) {
   .footer {
     width: 720px;
+    margin-top: 88px;
   }
 }
 

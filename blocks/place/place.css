@@ -1,22 +1,32 @@
 .place {
-  width: 984px;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 48px 40px;
+  margin: 0 0 80px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    width: 928px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    width: 720px;
+    gap: 48px 28px;
+    margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    width: 320px;
+    gap: 32px;
+    margin-bottom: 50px;
   }
 }
