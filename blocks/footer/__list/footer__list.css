@@ -1,0 +1,21 @@
+.footer__list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__list li {
+  display: inline;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__list li {
+    display: block;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__list li:last-child {
+    margin-bottom: 0px;
+  }
+}

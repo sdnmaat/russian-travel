@@ -1,0 +1,24 @@
+.photo {
+  margin: 92px auto;
+  width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo {
+    width: 720px;
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo {
+    width: 288px;
+    margin: 64px auto;
+  }
+}

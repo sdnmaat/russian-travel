@@ -1,0 +1,19 @@
+.places__website {
+  width: 456px;
+  align-self: end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__website {
+    width: 288px;
+    margin: auto;
+  }
+}
