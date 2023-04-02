@@ -20,6 +20,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: auto;
+    margin-left: 16px;
   }
 }

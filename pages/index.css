@@ -12,11 +12,11 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span/intro__span.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/place/__list/place__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__img/place__img.css);
 @import url(../blocks/place/__link/place__link.css);
