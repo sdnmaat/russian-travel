@@ -3,20 +3,20 @@
   width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .photo {
     width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo {
     width: 720px;
     margin: 88px auto;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .photo {
     width: 288px;
     margin: 64px auto;
