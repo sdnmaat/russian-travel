@@ -38,6 +38,3 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/header/__lang-box/header__lang-box.css);
 @import url(../blocks/content/content.css);
-
-
-*,*::before,*::after {outline: 1px solid red}
