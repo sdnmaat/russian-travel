@@ -1,5 +1,6 @@
 .header {
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -8,19 +9,22 @@
 
 @media screen and (max-width: 1279px) {
   .header {
-    max-width: 928px;
+    padding: 0 48px;
+    box-sizing: border-box;
   }  
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: 720px;
+    padding: 0 24px;
+    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    max-width: 288px;
     margin-top: 16px;
+    padding: 0 16px;
+    box-sizing: border-box;
   }
 }
