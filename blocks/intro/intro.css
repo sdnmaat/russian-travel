@@ -13,17 +13,17 @@
 @media screen and (max-width: 1023px) {
   .intro {
     margin-left: 0px;
+    max-width: 1023px;
     width: 100%;
     padding: 0 24px;
     box-sizing: border-box;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    margin-left: 0px;
-    width: 100%;
     padding: 0 16px;
-    box-sizing: border-box;
+    margin-top: 64px;
   }
 }

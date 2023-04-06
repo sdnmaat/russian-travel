@@ -9,7 +9,7 @@
   .place__img {
     width: 440px;
     height: 440px;
-    margin: auto;
+    margin: 0 auto;
   }
 }
 
@@ -17,7 +17,6 @@
   .place__img {
     width: 340px;
     height: 340px;
-    margin: auto;
   }
 }
 
@@ -25,6 +24,5 @@
   .place__img {
     width: 320px;
     height: 320px;
-    margin: auto;
   }
 }
